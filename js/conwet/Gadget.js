@@ -51,6 +51,7 @@ conwet.Gadget = Class.create({
         this.draw();
     },
 
+    //Function that creates the UI
     draw: function() {
         var container = $("container");
         conwet.ui.UIUtils.ignoreEvents(container, ["click", "dblclick"]);
@@ -139,7 +140,8 @@ conwet.Gadget = Class.create({
         this.typeServiceLabel.appendChild(document.createTextNode(_("Type:")));
         this.serviceDialog.appendChild(this.typeServiceLabel);
 
-        this.typeServiceSelect = new conwet.ui.StyledSelect({"onChange": this._updateServiceSelect.bind(this)});
+        this.typeServiceSelect = new StyledElements.StyledSelect();
+        this.typeServiceSelect.addEventListener("change" , this._updateServiceSelect.bind(this));
         this.typeServiceSelect.addClassName("type");
         this.typeServiceSelect.addClassName("no_display");
         this.typeServiceSelect.insertInto(this.serviceDialog);
