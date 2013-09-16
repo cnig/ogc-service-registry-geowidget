@@ -218,7 +218,7 @@ conwet.Gadget = Class.create({
             if (this.typeSelect.getValue() == this.catalogue[i].type) {
                 if ("service_types" in this.catalogue[i]) {
                     for (var j=0; j<this.catalogue[i].service_types.length; j++) {
-                        this.typeServiceSelect.addOption(this.catalogue[i].service_types[j], this.catalogue[i].service_types[j], {"selected": (j==0)});
+                        this.typeServiceSelect.addEntries([{label: this.catalogue[i].service_types[j], value: this.catalogue[i].service_types[j]}]);
                     }
                     this.typeServiceLabel.removeClassName("no_display");
                     this.typeServiceSelect.removeClassName("no_display");
