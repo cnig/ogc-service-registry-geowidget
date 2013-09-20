@@ -56,28 +56,41 @@ conwet.Gadget = Class.create({
         var container = $("container");
         conwet.ui.UIUtils.ignoreEvents(container, ["click", "dblclick"]);
 
+        var lineDiv = document.createElement("div");
+        lineDiv.addClassName("lineDiv");
+
         var typeLabel = document.createElement("div");
         $(typeLabel).addClassName("label");
         typeLabel.appendChild(document.createTextNode(_("Service type:")));
-        container.appendChild(typeLabel);
+        lineDiv.appendChild(typeLabel);
 
         this.typeSelect = new StyledElements.StyledSelect();
         this.typeSelect.addEventListener("change", this._updateServiceSelect.bind(this));
-        this.typeSelect.addClassName("type");
-        this.typeSelect.insertInto(container);
+        this.typeSelect.insertInto(lineDiv);
+
+        container.appendChild(lineDiv);
 
         for (var i=0; i< this.catalogue.length; i++) {
             this.typeSelect.addEntries([{label:_(this.catalogue[i].name), value: this.catalogue[i].type}]);
         }
 
+        lineDiv = document.createElement("div");
+        lineDiv.addClassName("lineDiv");
+
         var serviceLabel = document.createElement("div");
         $(serviceLabel).addClassName("label");
         serviceLabel.appendChild(document.createTextNode(_("Service:")));
-        container.appendChild(serviceLabel);
+        lineDiv.appendChild(serviceLabel);
 
         this.serviceSelect = new StyledElements.StyledSelect();
         this.serviceSelect.addClassName("service");
-        this.serviceSelect.insertInto(container);
+        this.serviceSelect.insertInto(lineDiv);
+        
+        container.appendChild(lineDiv);
+        
+        lineDiv = document.createElement("div");
+        lineDiv.addClassName("lineDiv");
+        lineDiv.addClassName("buttonsDiv");
 
         var sendButton = conwet.ui.UIUtils.createButton({
             "classNames": ["add_button, button"],
@@ -85,7 +98,6 @@ conwet.Gadget = Class.create({
             "value"     : _("Send"),
             "onClick"   : this._sendService.bind(this)
         });
-        container.appendChild(sendButton);
 
         var addButton = conwet.ui.UIUtils.createButton({
             "classNames": ["send_button, button"],
@@ -93,7 +105,10 @@ conwet.Gadget = Class.create({
             "value"     : _("Add service"),
             "onClick"   : this._showAddServiceDialog.bind(this)
         });
-        container.appendChild(addButton);
+        
+        lineDiv.appendChild(addButton);
+        lineDiv.appendChild(sendButton);
+        container.appendChild(lineDiv);
 
         this._updateServiceSelect();
 
