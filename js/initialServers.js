@@ -57,7 +57,8 @@ var initialServers = [
             {'name' : 'CartoCiudad Municipio', 'url': 'http://www.cartociudad.es/wfs-municipio/services', 'type': 'MNE'},
             {'name' : 'CartoCiudad Nomenclator de Portal', 'url': 'http://www.cartociudad.es/wfs-portal/services', 'type': 'MNE'},
             {'name' : 'CartoCiudad Sección Censal', 'url': 'http://www.cartociudad.es/wfs-seccion/services', 'type': 'MNE'},
-            {'name' : 'CartoCiudad Nomenclator del Vial', 'url': 'http://www.cartociudad.es/wfs-vial/services', 'type': 'MNE'}
+            {'name' : 'CartoCiudad Nomenclator del Vial', 'url': 'http://www.cartociudad.es/wfs-vial/services', 'type': 'MNE'},
+            {'name' : 'GeoNames', 'url': 'http://api.geonames.org/search', 'type': 'GEONAMES'}
         ]
     },
     {
