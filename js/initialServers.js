@@ -59,7 +59,8 @@ var initialServers = [
             {'name' : 'CartoCiudad Sección Censal', 'url': 'http://www.cartociudad.es/wfs-seccion/services', 'type': 'MNE'},
             {'name' : 'CartoCiudad Nomenclator del Vial', 'url': 'http://www.cartociudad.es/wfs-vial/services', 'type': 'MNE'},
             {'name' : 'GeoNames', 'url': 'http://api.geonames.org/search', 'type': 'GEONAMES'},
-            {'name' : 'NGCE-Inspire', 'url': 'http://www.ign.es/wfs-inspire/ngce', 'type': 'INSPIRE'}
+            {'name' : 'NGCE-Inspire', 'url': 'http://www.ign.es/wfs-inspire/ngce', 'type': 'INSPIRE'},
+            {'name' : 'Cartociudad-Inspire', 'url': 'http://www.cartociudad.es/wfs-inspire/ad', 'type': 'INSPIRE'}
         ]
     },
     {
