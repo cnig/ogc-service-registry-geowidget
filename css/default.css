@@ -19,9 +19,11 @@ body {
     display: none !important;
 }
 .label {
-    color: #809DCD;
-    font-size: 11px;
+    color: #444444;
+    font-size: 13px;
     font-weight: bold;
+    background-color: transparent;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 .button {
     background: url("../img/button.png") repeat-x scroll 0 0 #EEEEEE;
