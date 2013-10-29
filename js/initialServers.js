@@ -43,6 +43,19 @@ var initialServers = [
         ]
     },
     {
+        "type"    : "WMSC",
+        "name"    : "WMSC Services",
+        "services": [
+            {'name': 'CartoCiudad', 'url': 'http://www.cartociudad.es/wms-c/CARTOCIUDAD/CARTOCIUDAD'},
+            {'name': 'Cartografía raster', 'url': 'http://www.ign.es/wms-c/mapa-raster'},
+            {'name': 'Mapa base de España', 'url': 'http://www.ign.es/wms-c/ign-base'},
+            {'name': 'MPNOA máxima actualidad', 'url': 'http://www.ign.es/wms-c/PNOA/PNOA'},
+            {'name': 'Callejero Digital de Andalucía', 'url': 'http://www.juntadeandalucia.es/servicios/mapas/callejero/wms-tiled'},
+            {'name': 'Ortofotografía 2010-2011', 'url': 'http://www.ideandalucia.es/geowebcache/service/wms'},
+            {'name': 'Municipio - Zaragoza | Mapa Base (Ayuntamiento de Zaragoza)', 'url': 'http://idezar.zaragoza.es/IDEZar_Base_Tiled/WMSTileCache'},
+        ]
+    },
+    {
         "type"    : "WFS",
         "name"    : "Nomenclátor Services",
         "service_types": ["MNE", "EGN", "GEONAMES", "INSPIRE"],
