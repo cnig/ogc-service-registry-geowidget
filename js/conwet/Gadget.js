@@ -187,13 +187,17 @@ conwet.Gadget = Class.create({
 
     },
 
-    addService: function(name, url, type) {
+    addService: function(name, url, type, isWSMC) {
         for (var i=0; i< this.catalogue.length; i++) {
             if (this.catalogue[i].type == this.typeSelect.getValue()) {
                 var service = {"name": name, "url": url}
                 if (type) {
                     service.type = type;
                 }
+                if (isWSMC){
+                    service.isWSMC = true;
+                }
+                
                 this.catalogue[i].services.push(service);
 
                 this._addRemovableOption(this.serviceSelect, name, url, true);
