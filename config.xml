@@ -2,9 +2,9 @@
 <Template xmlns="http://morfeo-project.org/2007/Template">
     <Catalog.ResourceDescription>
         <Vendor>CoNWeT</Vendor>
-        <Name>OGC Service Registry</Name>
+        <Name>OGC-Service-Registry</Name>
         <DisplayName>OGC Service Registry</DisplayName>
-        <Version>0.2</Version>
+        <Version>0.2.1</Version>
         <Author>jmostazo</Author>
         <Mail>jmostazo@fi.upm.es</Mail>
         <Description>This widget provides a list of WMS, Nomenclator and GeoRSS services, ready to be wired to other widgets. The user can also add, edit or remove services to the list.</Description>
@@ -29,7 +29,5 @@
     </Platform.Link>
 
     <Platform.Rendering width="4" height="14"/>
-
-    <Platform.Context>
-    </Platform.Context>
+    
 </Template>

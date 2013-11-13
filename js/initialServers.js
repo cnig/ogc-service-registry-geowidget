@@ -52,12 +52,12 @@ var initialServers = [
             {'name': 'MPNOA máxima actualidad', 'url': 'http://www.ign.es/wms-c/PNOA/PNOA'},
             {'name': 'Callejero Digital de Andalucía', 'url': 'http://www.juntadeandalucia.es/servicios/mapas/callejero/wms-tiled'},
             {'name': 'Ortofotografía 2010-2011', 'url': 'http://www.ideandalucia.es/geowebcache/service/wms'},
-            {'name': 'Municipio - Zaragoza | Mapa Base (Ayuntamiento de Zaragoza)', 'url': 'http://idezar.zaragoza.es/IDEZar_Base_Tiled/WMSTileCache'},
+            {'name': 'Municipio - Zaragoza | Mapa Base (Ayuntamiento de Zaragoza)', 'url': 'http://idezar.zaragoza.es/IDEZar_Base_Tiled/WMSTileCache'}
         ]
     },
     {
         "type"    : "WFS",
-        "name"    : "Nomenclátor Services",
+        "name"    : "Nomenclator Services",
         "service_types": ["MNE", "EGN", "GEONAMES", "INSPIRE"],
         "services": [
             {'name' : 'Nomenclátor Geográfico Conciso de España', 'url': 'http://www.idee.es/IDEE-WFS-Nomenclator-NGC/services', 'type': 'MNE'},
