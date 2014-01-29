@@ -29,23 +29,21 @@ var initialServers = [
     {
         "type"    : "WMS",
         "name"    : "WMS Services",
-        "services": [
-            {'name': 'IDEE - PNOA', 'url': 'http://www.idee.es/wms/PNOA/PNOA'},
+        "services": [            
             {'name': 'Catastro', 'url': 'http://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx'},
-            {'name': 'Atlas Climático Digital de la Península Ibérica', 'url': 'http://www.opengis.uab.es/cgi-bin/iberia/MiraMon5_0.cgi'},
-            {'name': 'IDEE - Cuadrículas geográficas', 'url': 'http://www.idee.es/wms/IDEE-Cuadricula-Hojas/IDEE-Cuadricula-Hojas'},
-            {'name': 'IDEE - Límites Administrativos', 'url': 'http://www.idee.es/wms/IDEE-Limite/IDEE-Limite'},
-            {'name': 'IDEE - Mapa Base' , 'url': 'http://www.idee.es/wms/IDEE-Base/IDEE-Base'},
-            {'name': 'Mapa de Ocupación del Suelo', 'url': 'http://www.idee.es/wms/IGN-Corine/IGN-Corine'},
-            {'name': 'IDEE - Redes Geodésicas', 'url': 'http://www.idee.es/wms/IDEE-Referencia/IDEE-Referencia'},
-            {'name': 'SIGPAC-FEGA (ortofotos)', 'url': 'http://195.235.91.59/wms/wms.aspx'},
-            {'name': 'Imágenes Landsat 7 y SPOT', 'url': 'http://www.idee.es/wms/IDEE-Landsat/IDEE-Landsat'},
-            {'name': 'IDE Gipuzkoa - Hidrología', 'url': 'http://urhweb.gipuzkoa.net/geowebcache/service/wms'},
-            {'name': 'IDE Gipuzkoa - Información territorial', 'url': 'http://b5m.gipuzkoa.net/ogc/wms/gipuzkoa_wms'},
-            {'name': 'Junta de Andalucía', 'url': 'http://www.juntadeandalucia.es/servicios/mapas/callejero/wms'}
+            {'name': 'Ortofotos PNOA máxima actualidad', 'url': 'http://www.ign.es/wms-inspire/pnoa-ma'},
+            {'name': 'CartoCiudad', 'url': 'http://www.cartociudad.es/wms/CARTOCIUDAD/CARTOCIUDAD'},            
+            {'name': 'Cartografía Raster', 'url': 'http://www.ign.es/wms-inspire/mapa-raster'},
+            {'name': 'CORINE- Ocupación de suelo de España', 'url': 'http://www.ign.es/wms-inspire/corine'},
+            {'name': 'Mapa Base de España', 'url': 'http://www.ign.es/wms-inspire/ign-base'},
+            {'name': 'Mapa de Madrid de 1902 de Facundo Cañada', 'url': 'http://idehistoricamadrid.org/USIG/services/Mapas_Tematicos_WMS_Carto/mapserver/WMSServer'},
+            {'name': 'Modelos Digitales del Terreno de España', 'url': 'http://www.ign.es/wms-inspire/mdt'},
+            {'name': 'Radicación solar global en España', 'url': 'http://adrase.ceta-ciemat.es/geoserver/Portalgeosolar/wms'},
+            {'name': 'Redes geodésicas', 'url': 'http://www.ign.es/wms-inspire/redes-geodesicas'},
+            {'name': 'SIOSE- Ocupación de suelo de España', 'url': 'http://www.ign.es/wms-inspire/siose'}
         ]
     },
-    {
+    /*{
         "type"    : "WMSC",
         "name"    : "WMSC Services",
         "services": [
@@ -57,7 +55,7 @@ var initialServers = [
             {'name': 'Ortofotografía 2010-2011', 'url': 'http://www.ideandalucia.es/geowebcache/service/wms'},
             {'name': 'Municipio - Zaragoza | Mapa Base (Ayuntamiento de Zaragoza)', 'url': 'http://idezar.zaragoza.es/IDEZar_Base_Tiled/WMSTileCache'}
         ]
-    },
+    },*/
     {
         "type"    : "RSS",
         "name"    : "GeosRSS Services",
