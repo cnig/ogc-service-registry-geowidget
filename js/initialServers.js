@@ -65,7 +65,7 @@ var initialServers = [
             {'name': 'El Mundo', 'url': 'http://ws.geonames.org/rssToGeoRSS?feedUrl=http://elmundo.feedsportal.com/elmundo/rss/portada.xml'},
             {'name': '20 Minutos', 'url': 'http://ws.geonames.org/rssToGeoRSS?feedUrl=http://20minutos.feedsportal.com/c/32489/f/478284/index.rss'}
         ]
-    },
+    }/*,
     {
         "type"    : "CSW",
         "name"    : "CSW Services",
@@ -73,5 +73,5 @@ var initialServers = [
         "services": [
             {'name': 'IGN CSW Inspire', 'url': 'http://www.ign.es/csw-inspire/srv/es/csw', 'type': 'CSW'},
          ]
-    }
+    }*/
 ];

@@ -125,6 +125,11 @@
             $(this.serviceDialog).addClassName("add_dialog");
             $(this.serviceDialog).addClassName("no_display");
             container.appendChild(this.serviceDialog);
+	    
+	    var alertLabel = document.createElement("div");
+            $(alertLabel).addClassName("alert");
+            alertLabel.appendChild(document.createTextNode(_("Aviso: Evite agregar urls de servicios WMSC, no están soportados por el visor de mapas.")));
+            this.serviceDialog.appendChild(alertLabel);            
 
             var nameLabel = document.createElement("div");
             $(nameLabel).addClassName("label");

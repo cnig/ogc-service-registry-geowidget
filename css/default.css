@@ -44,7 +44,7 @@
     border-radius: 3px 3px 3px 3px;
     bottom: 0;
     display: block;
-    height: 100px;
+    height: 170px;
     left: 0;
     margin: auto;
     padding: 5px;
@@ -80,3 +80,10 @@ buttonsDiv {
 .buttonsDiv {
     float: right;
 }
+
+.alert{
+	font-size: 12px !important;
+	margin-bottom: 5px !important;
+	padding: 5px !important;
+}
+
