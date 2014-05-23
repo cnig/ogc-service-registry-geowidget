@@ -63,7 +63,7 @@
             lineDiv.addClassName("lineDiv");
 
             var typeLabel = document.createElement("div");
-            $(typeLabel).addClassName("label");
+            $(typeLabel).addClassName("centeredlabel");
             typeLabel.appendChild(document.createTextNode(_("Service type:")));
             lineDiv.appendChild(typeLabel);
 
@@ -81,7 +81,7 @@
             lineDiv.addClassName("lineDiv");
 
             var serviceLabel = document.createElement("div");
-            $(serviceLabel).addClassName("label");
+            $(serviceLabel).addClassName("centeredlabel");
             serviceLabel.appendChild(document.createTextNode(_("Service:")));
             lineDiv.appendChild(serviceLabel);
 
@@ -126,10 +126,10 @@
             $(this.serviceDialog).addClassName("no_display");
             container.appendChild(this.serviceDialog);
 	    
-	    var alertLabel = document.createElement("div");
+	    /*var alertLabel = document.createElement("div");
             $(alertLabel).addClassName("alert");
             alertLabel.appendChild(document.createTextNode(_("Aviso: Evite agregar urls de servicios WMSC, no están soportados por el visor de mapas.")));
-            this.serviceDialog.appendChild(alertLabel);            
+            this.serviceDialog.appendChild(alertLabel);            */
 
             var nameLabel = document.createElement("div");
             $(nameLabel).addClassName("label");

@@ -4,9 +4,9 @@
         <Vendor>CoNWeT</Vendor>
         <Name>OGC-Service-Registry</Name>
         <DisplayName>OGC Service Registry</DisplayName>
-        <Version>0.3.2</Version>
-        <Author>jmostazo</Author>
-        <Mail>jmostazo@fi.upm.es</Mail>
+        <Version>0.3.3</Version>
+        <Author>billescas</Author>
+        <Mail>billescas@conwet.com</Mail>
         <Description>This widget provides a list of WMS, Nomenclator and GeoRSS services, ready to be wired to other widgets. The user can also add, edit or remove services to the list.</Description>
         <ImageURI>img/catalogo.png</ImageURI>
         <iPhoneImageURI>img/catalogo.png</iPhoneImageURI>
@@ -28,6 +28,6 @@
         <XHTML use-platform-style="true" href="index.html"/>
     </Platform.Link>
 
-    <Platform.Rendering width="4" height="14"/>
+    <Platform.Rendering width="4" height="16"/>
     
 </Template>

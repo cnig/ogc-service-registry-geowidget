@@ -43,7 +43,7 @@ var initialServers = [
             {'name': 'SIOSE- Ocupación de suelo de España', 'url': 'http://www.ign.es/wms-inspire/siose'}
         ]
     },
-    /*{
+    {
         "type"    : "WMSC",
         "name"    : "WMSC Services",
         "services": [
@@ -55,7 +55,14 @@ var initialServers = [
             {'name': 'Ortofotografía 2010-2011', 'url': 'http://www.ideandalucia.es/geowebcache/service/wms'},
             {'name': 'Municipio - Zaragoza | Mapa Base (Ayuntamiento de Zaragoza)', 'url': 'http://idezar.zaragoza.es/IDEZar_Base_Tiled/WMSTileCache'}
         ]
-    },*/
+    },
+   {
+        "type"    : "WMTS",
+        "name"    : "WMTS Services",
+        "services": [
+				{'name': 'CartoCiudad WMTS', 'url': 'http://www.cartociudad.es/wmts/CARTOCIUDAD/CARTOCIUDAD'}
+        ]
+    },
     {
         "type"    : "RSS",
         "name"    : "GeosRSS Services",
