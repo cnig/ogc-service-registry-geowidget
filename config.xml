@@ -4,10 +4,10 @@
         <Vendor>CoNWeT</Vendor>
         <Name>OGC-Service-Registry</Name>
         <DisplayName>OGC Service Registry</DisplayName>
-        <Version>0.3.3</Version>
+        <Version>0.3.4</Version>
         <Author>billescas</Author>
         <Mail>billescas@conwet.com</Mail>
-        <Description>This widget provides a list of WMS, Nomenclator and GeoRSS services, ready to be wired to other widgets. The user can also add, edit or remove services to the list.</Description>
+        <Description>This widget provides a list of WMS, WMS-C, WMTS, CSW and GeoRSS services, ready to be wired to other widgets. The user can also add, edit or remove services to the list.</Description>
         <ImageURI>img/catalogo.png</ImageURI>
         <iPhoneImageURI>img/catalogo.png</iPhoneImageURI>
         <WikiURI>http://hercules.ls.fi.upm.es/public/conwet/ogf.html#catalogo</WikiURI>
